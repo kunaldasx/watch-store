@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import heroImg from "../assets/hero.png";
 
@@ -14,7 +14,7 @@ export function HeroBanner() {
 		},
 	};
 
-	const item = {
+	const item: Variants = {
 		hidden: { opacity: 0, y: 40 },
 		show: {
 			opacity: 1,
