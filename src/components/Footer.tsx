@@ -14,11 +14,11 @@ export function Footer() {
 							href="/"
 							className="text-3xl font-serif tracking-widest font-bold uppercase text-foreground inline-block mb-6"
 						>
-							TimeOne
+							VISO
 						</a>
 						<p className="text-foreground/60 text-sm leading-relaxed mb-8 pr-4">
-							The premier destination for luxury timepieces. Authorized retailer
-							for the world's most prestigious watch brands.
+							The premier destination for luxury eyewear. Authorized retailer
+							for the world's most prestigious designer frames.
 						</p>
 						<div className="flex space-x-4">
 							<a
@@ -51,10 +51,10 @@ export function Footer() {
 							{[
 								"New Arrivals",
 								"Bestsellers",
-								"Men's Watches",
-								"Women's Watches",
-								"Smart Watches",
-								"Pre-Owned",
+								"Optical",
+								"Sunglasses",
+								"Reading Glasses",
+								"Accessories",
 							].map((link) => (
 								<li key={link}>
 									<a
@@ -77,7 +77,7 @@ export function Footer() {
 							{[
 								"Contact Us",
 								"Book an Appointment",
-								"Watch Servicing",
+								"Frame Servicing",
 								"Shipping & Returns",
 								"FAQ",
 								"Store Locator",
@@ -97,11 +97,11 @@ export function Footer() {
 					{/* Newsletter Col */}
 					<div>
 						<h4 className="text-foreground font-medium uppercase tracking-wider text-sm mb-6">
-							The Chronos Club
+							The VISO Club
 						</h4>
 						<p className="text-foreground/60 text-sm mb-6">
 							Subscribe to receive updates on new arrivals, exclusive events,
-							and watchmaking editorials.
+							and eyewear editorials.
 						</p>
 						<form className="relative" onSubmit={(e) => e.preventDefault()}>
 							<input
@@ -121,7 +121,7 @@ export function Footer() {
 
 				<div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center">
 					<p className="text-foreground/40 text-xs mb-4 md:mb-0">
-						&copy; {new Date().getFullYear()} CHRONOS. All rights reserved.
+						&copy; {new Date().getFullYear()} VISO. All rights reserved.
 					</p>
 					<div className="flex space-x-6">
 						<a

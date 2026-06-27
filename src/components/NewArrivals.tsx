@@ -1,68 +1,5 @@
+import { products } from "@/constants/products";
 import { ProductCard } from "./ProductCard";
-
-import rolexImg from "../assets/rolex-submariner.png";
-import omegaImg from "../assets/omega-seamaster.png";
-import tagImg from "../assets/tag-heuer-carrera.png";
-import tissotImg from "../assets/tissot-prx.png";
-import seikoImg from "../assets/seiko-presage.png";
-import casioImg from "../assets/casio-gshock.png";
-
-export const products = [
-	{
-		id: 1,
-		name: "Submariner Date 41mm",
-		brand: "Rolex",
-		price: 850000,
-		rating: 4.9,
-		badge: "Bestseller",
-		image: rolexImg,
-	},
-	{
-		id: 2,
-		name: "Seamaster Diver 300M",
-		brand: "Omega",
-		price: 520000,
-		rating: 4.8,
-		badge: "New Arrival",
-		image: omegaImg,
-	},
-	{
-		id: 3,
-		name: "Carrera Chronograph",
-		brand: "TAG Heuer",
-		price: 280000,
-		rating: 4.7,
-		badge: "Trending",
-		image: tagImg,
-	},
-	{
-		id: 4,
-		name: "PRX Powermatic 80",
-		brand: "Tissot",
-		price: 42000,
-		rating: 4.9,
-		badge: "Most Loved",
-		image: tissotImg,
-	},
-	{
-		id: 5,
-		name: "Presage Cocktail Time",
-		brand: "Seiko",
-		price: 28500,
-		rating: 4.6,
-		badge: "New Arrival",
-		image: seikoImg,
-	},
-	{
-		id: 6,
-		name: "G-Shock Full Metal",
-		brand: "Casio",
-		price: 12999,
-		rating: 4.5,
-		badge: "Trending",
-		image: casioImg,
-	},
-];
 
 export function NewArrivals() {
 	return (
@@ -78,7 +15,7 @@ export function NewArrivals() {
 						</h2>
 					</div>
 					<button className="mt-6 md:mt-0 text-foreground border-b border-secondary pb-1 hover:text-secondary transition-colors uppercase tracking-wider text-sm font-medium">
-						View All Watches
+						View All Eyewear
 					</button>
 				</div>
 

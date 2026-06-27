@@ -3,16 +3,16 @@ import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 
 const brands = [
-	"ROLEX",
-	"PATEK PHILIPPE",
-	"OMEGA",
-	"TISSOT",
-	"SEIKO",
-	"CASIO",
-	"TAG HEUER",
-	"LONGINES",
-	"BREITLING",
-	"IWC",
+	"RAY-BAN",
+	"OAKLEY",
+	"GUCCI",
+	"TOM FORD",
+	"PRADA",
+	"VERSACE",
+	"PERSOL",
+	"CARTIER",
+	"MAUI JIM",
+	"LINDBERG",
 ];
 
 export function FeaturedBrands() {
@@ -46,7 +46,7 @@ export function FeaturedBrands() {
 					{brands.map((brand, idx) => (
 						<div
 							key={idx}
-							className="flex-[0_0_auto] min-w-[200px] md:min-w-[300px] px-4"
+							className="flex-[0_0_auto] min-w-50 md:min-w-75 px-4"
 						>
 							<motion.div
 								whileHover={{ scale: 1.05, y: -5 }}

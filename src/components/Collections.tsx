@@ -16,7 +16,7 @@ export function Collections() {
 					>
 						<img
 							src={mensImg}
-							alt="Men's Collection"
+							alt="Optical Collection"
 							className="w-full h-full object-cover"
 						/>
 						<div className="absolute inset-0 bg-background/40 group-hover:bg-background/20 transition-colors duration-500" />
@@ -24,7 +24,7 @@ export function Collections() {
 
 					<div className="relative z-10 h-full flex flex-col justify-end p-10 md:p-16">
 						<h3 className="text-3xl md:text-5xl font-serif text-white mb-4">
-							Men's
+							Optical
 							<br />
 							Collection
 						</h3>
@@ -43,7 +43,7 @@ export function Collections() {
 					>
 						<img
 							src={womensImg}
-							alt="Women's Collection"
+							alt="Sun Collection"
 							className="w-full h-full object-cover"
 						/>
 						<div className="absolute inset-0 bg-background/40 group-hover:bg-background/20 transition-colors duration-500" />
@@ -51,7 +51,7 @@ export function Collections() {
 
 					<div className="relative z-10 h-full flex flex-col justify-end p-10 md:p-16">
 						<h3 className="text-3xl md:text-5xl font-serif text-white mb-4">
-							Women's
+							Sun
 							<br />
 							Collection
 						</h3>

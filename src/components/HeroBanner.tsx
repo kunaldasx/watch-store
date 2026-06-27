@@ -3,8 +3,8 @@ import { ArrowRight } from "lucide-react";
 import heroImg from "../assets/hero.png";
 
 export function HeroBanner() {
-	const titleWords = "TIMELESS ELEGANCE".split(" ");
-	const subtitleWords = "Redefining Luxury".split(" ");
+	const titleWords = "FRAME YOUR WORLD".split(" ");
+	const subtitleWords = "Precision Crafted Eyewear".split(" ");
 
 	const container = {
 		hidden: { opacity: 0 },
@@ -24,7 +24,7 @@ export function HeroBanner() {
 	};
 
 	return (
-		<div className="relative w-full h-[100dvh] bg-background flex items-center overflow-hidden">
+		<div className="relative w-full h-dvh bg-background flex items-center overflow-hidden">
 			{/* Background Image */}
 			<motion.div
 				initial={{ scale: 1.1, opacity: 0 }}
@@ -34,11 +34,11 @@ export function HeroBanner() {
 			>
 				<img
 					src={heroImg}
-					alt="Luxury Watch Close-up"
+					alt="Luxury Eyewear Close-up"
 					className="w-full h-full object-cover object-center"
 				/>
-				<div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent" />
-				<div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+				<div className="absolute inset-0 bg-linear-to-r from-background via-background/80 to-transparent" />
+				<div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent" />
 			</motion.div>
 
 			{/* Content */}
@@ -53,9 +53,9 @@ export function HeroBanner() {
 						variants={item}
 						className="mb-4 flex items-center space-x-4"
 					>
-						<span className="h-[1px] w-12 bg-secondary" />
+						<span className="h-px w-12 bg-secondary" />
 						<p className="text-secondary uppercase tracking-[0.3em] text-sm font-semibold">
-							The Chronos Collection
+							The VISO Collection
 						</p>
 					</motion.div>
 

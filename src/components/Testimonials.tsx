@@ -2,21 +2,21 @@ import { motion } from 'framer-motion';
 
 const reviews = [
   {
-    name: "Vikram S.",
-    watch: "Rolex Submariner",
-    text: "The purchasing experience at Chronos was nothing short of extraordinary. Their expertise and attention to detail made acquiring my grail watch a memorable event.",
+    name: "Rahul M.",
+    watch: "Ray-Ban Aviators",
+    text: "The Ray-Ban Aviators I ordered arrived perfectly. The quality is unmatched!",
     rating: 5
   },
   {
-    name: "Aarti M.",
-    watch: "Omega Seamaster",
-    text: "Impeccable service. The concierge helped me select the perfect anniversary gift for my husband. The packaging and presentation were absolutely stunning.",
+    name: "Priya S.",
+    watch: "Tom Ford frames",
+    text: "Got my Tom Ford frames last week — I've received compliments every single day.",
     rating: 5
   },
   {
-    name: "Rahul K.",
-    watch: "Patek Philippe Nautilus",
-    text: "As a collector, I value authenticity and provenance. Chronos provides both, along with a level of personalized service that is rare in today's retail landscape.",
+    name: "Arjun K.",
+    watch: "Gucci frames",
+    text: "VISO's collection is extraordinary. My Gucci frames are just perfection.",
     rating: 5
   }
 ];
